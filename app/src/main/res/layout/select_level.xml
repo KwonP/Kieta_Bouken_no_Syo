@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <ImageButton
+        android:id="@+id/lv0btn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/empty_star"
+        android:background="#757575"
+        android:onClick="levelbtn"/>
+    <ImageButton
+        android:id="@+id/lv1btn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/half_star"
+        android:background="#757575"
+        android:layout_below="@id/lv0btn"
+        android:onClick="levelbtn"/>
+    <ImageButton
+        android:id="@+id/lv2btn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/one_star"
+        android:background="#757575"
+        android:layout_below="@id/lv1btn"
+        android:onClick="levelbtn"/>
+    <ImageButton
+        android:id="@+id/lv3btn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/one_star"
+        android:background="#757575"
+        android:layout_below="@id/lv2btn"
+        android:tint="#FF0000"
+        android:onClick="levelbtn"
+        />
+
+</RelativeLayout>

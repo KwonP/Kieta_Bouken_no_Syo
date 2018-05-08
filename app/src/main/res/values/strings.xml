@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">消えた冒険の書</string><!--
+    <String name="jp_jop1">戦士</String>
+    <String name="jp_jop2">アーチャー</String>
+    <String name="jp_jop3">魔法使い</String>-->
+    <string name="kr_job1">戦士</string>
+    <string name="kr_job2">アーチャー</string>
+    <string name="kr_job3">魔法使い</string>
+    <string name="kr_title">消えた\n冒険の書</string>
+    <string name="kr_job1_help">
+        戦士はアーチャーに比べ体力と防御が高くより長く耐えることができ、味方を援護するタンカーとしての能力を
+        保有しています。\n
+        特性:　ガード、スマッシュ
+    </string>
+    <string name="kr_job2_help">
+        アーチャーは戦士に比べ高い攻撃力を持ちアタッカーとしての役割を果たします。\n
+        特性：高い攻撃力
+    </string>
+    <string name="kr_mode1">探検</string>
+    <string name="kr_mode2">トレーニング</string>
+</resources>
